@@ -6,7 +6,7 @@ fileUrl <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%2
 
 download.file(fileUrl, destfile = "./data/project.zip")
 
-# Unzip Data
+# Unzip data
 
 unzip(zipfile = "./data/project.zip", exdir = "./data")
 
@@ -58,7 +58,7 @@ merge <-  cbind(merge , x);
 ## 2) Extracts only the measurements on the mean and standard deviation for each measurement. 
 
 #read the features from the file to assign the name to every column obtained in dataframe 'merge'
-features <- read.table("./features.txt")
+features <- read.table("./data/UCI HAR Dataset/features.txt")
 
 #iterate the features and assign the name to the corresponding column
 for(i in 1:nrow(features))
