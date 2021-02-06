@@ -7,7 +7,7 @@ output: html_document
 
  The datasets has as datasource the files downloaded from the url https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip ; The files used are :subject_train.txt ,y_train.txt,x_train.txt,subject_test.txt,y_test.txt,x_test.txt and features.txt.
 
-The dataset includes the following files:
+The files added to the dataset are the files:
 
 - 'README.txt'
 
@@ -35,6 +35,27 @@ The sensor signals (accelerometer and gyroscope) were pre-processed by applying 
 - An identifier of the subject who carried out the experiment.
 
  </p>
+<h4>The original dataset includes the following files:</h4>
+
+- 'README.txt'
+
+- 'features_info.txt': Shows information about the variables used on the feature vector.
+
+- 'features.txt': List of all features.
+
+- 'activity_labels.txt': Links the class labels with their activity name.
+
+- 'train/X_train.txt': Training set.
+
+- 'train/y_train.txt': Training labels.
+
+- 'test/X_test.txt': Test set.
+
+- 'test/y_test.txt': Test labels.
+
+Notes: 
+======
+- To avoid confusion , the file readme.txt was deleted from the original datasource downloaded.
 
 
 License:
