@@ -9,11 +9,11 @@ output: html_document
 
 The files added to the dataset are the files:
 
-- 'README.txt'
+- 'README.md'
 
 - 'codebook.md': Shows information about process and the variables used to get and clean the data.
 
-- 'run_analysis.R': Contain the code that was developed to get the data , clean the data and write the file averagetidydataset.txt
+- 'run_analysis.R': Contain the code that was developed to get the data , clean the data and create the file averagetidydataset.txt
 
 - 'averagetidydataset.txt' : Contain the mean from all the numeric columns grouped by the subject and activity.
 
